@@ -2,13 +2,16 @@
   "name": "twitch-search-bar",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://alexislopes.github.io/twitch-search-bar/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.4.0",
+    "gh-pages": "^5.0.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {
