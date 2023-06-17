@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       colors: {
         brand: "#a970ff",
-        surface: "#18181a"
+        surface: "#18181a",
+        surface2: "#1f1e23"
       }
 
     },
